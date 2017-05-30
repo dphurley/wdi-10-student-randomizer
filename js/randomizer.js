@@ -26,7 +26,6 @@ $(function () {
     {name: 'Clark Waite'},
     {name: 'Jeff Henneberg'},
     {name: 'Monica Grages'},
-    {name: 'Sarah Moore'},
     {name: 'William Rausch'},
     {name: 'Yeni Nomezqui'},
     {name: 'Kate Montha'},
