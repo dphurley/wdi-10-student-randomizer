@@ -4,7 +4,7 @@ $(function () {
     var nextStudentIndex = Math.floor(Math.random() * students.length);
     var nextStudent = students[nextStudentIndex];
 
-    $('#student-name').html(nextStudent.name);
+    $('#student-name').html(`${nextStudent.name} (${students.length - 1} to go)`);
 
     return nextStudentIndex;
   }
@@ -24,7 +24,7 @@ $(function () {
     { name: 'Alex Dodita' },
     { name: 'Andre Robinson' },
     { name: 'Blake Pitts' },
-    { name: 'Brad Farrell' },
+    { name: 'Brad O\'Farrell' },
     { name: 'Brandon Reily' },
     { name: 'Chris Mears' },
     { name: 'Erica Hinchman' },
