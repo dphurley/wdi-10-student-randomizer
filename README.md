@@ -1,1 +1,1 @@
-# wdi-10-student-randomizer
+wdi-student-project-randomizer
